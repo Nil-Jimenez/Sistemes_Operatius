@@ -39,3 +39,36 @@ echo "$(whoami)" - "$(date)" >> usuaris.log
 cat usuaris.log
 ```
 <img width="808" height="103" alt="Captura de pantalla 2025-10-31 134824" src="https://github.com/user-attachments/assets/8951e411-f804-460a-99c2-96415741bb3e" />
+
+
+### b) Scripting bàsic:
+
+####• Crea el script sys_check.sh a la carpeta scripts i mostra l'escructura del projecte amb $ ls * des del directory docs_bash.
+
+```
+cd scripts/
+touch sys_check.sh
+cd ..
+ls *
+```
+<img width="621" height="268" alt="Captura de pantalla 2025-10-31 140416" src="https://github.com/user-attachments/assets/acceacb2-e092-4268-9fd5-ba97c85c2ce7" />
+
+#### Utilitza nano o vim per editar el fitxer, aquest ha d'imprimir la data actual i actualitzar la llibreria de paquets del sistema.
+
+```
+sudo nano sys_check.sh
+
+    echo "$(date)"
+    sudo apt update
+    sudo apt upgrade
+```
+
+<img width="627" height="159" alt="Captura de pantalla 2025-10-31 141906" src="https://github.com/user-attachments/assets/fec6b947-1fcf-4a19-883c-ea054bf2ac07" />
+
+
+#### Executa el fitxer resultant amb $ bash sys_check.sh i documenta per què surt un error i com solucionar-ho.
+
+```
+bash sys_check.sh
+```
+<img width="897" height="273" alt="Captura de pantalla 2025-10-31 141846" src="https://github.com/user-attachments/assets/4fa6e8ab-27ff-49a2-bc54-39f445eb001f" />

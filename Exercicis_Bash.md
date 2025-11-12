@@ -77,59 +77,28 @@ bash sys_check.sh
 
 #### • Executa les instruccions vistes anteriorment per obtindre la descripció de la comanda tail.
 ```
-cd scripts/
-touch sys_check.sh
-cd ..
-ls *
+man tail
 ```
-<img width="621" height="268" alt="Captura de pantalla 2025-10-31 140416" src="https://github.com/user-attachments/assets/acceacb2-e092-4268-9fd5-ba97c85c2ce7" />
+<img width="1853" height="848" alt="image" src="https://github.com/user-attachments/assets/7e5af4d0-5226-4e8e-851b-08c7f5721038" />
 
 #### • A partir de la descripció de tail, busca el paràmetre per mostrar l'última fila d'un fitxer.
 
 ```
-sudo nano sys_check.sh
-
-    echo "$(date)"
-    sudo apt update
-    sudo apt upgrade
+tail -n 1 fitxer.txt
 ```
 
-<img width="627" height="159" alt="Captura de pantalla 2025-10-31 141906" src="https://github.com/user-attachments/assets/fec6b947-1fcf-4a19-883c-ea054bf2ac07" />
-
-
-#### Executa el fitxer resultant amb $ bash sys_check.sh i documenta per què surt un error i com solucionar-ho.
-
-```
-bash sys_check.sh
-```
-<img width="897" height="273" alt="Captura de pantalla 2025-10-31 141846" src="https://github.com/user-attachments/assets/4fa6e8ab-27ff-49a2-bc54-39f445eb001f" />
+<img width="1129" height="492" alt="image" src="https://github.com/user-attachments/assets/fcbd8de3-6b18-4eb4-bf6f-5a9f31eba848" />
 
 ### d) Documentació tècnica del projecte:
 
 #### •  Afegeix al README les instruccions del fitxer sys_check.sh mitjançant la terminal utilitzant la comanda cat ... >> .... Revisa aquest apartat de GitHub per donar el format adequat als blocs de codi.
 ```
-cd scripts/
-touch sys_check.sh
-cd ..
-ls *
-```
-<img width="621" height="268" alt="Captura de pantalla 2025-10-31 140416" src="https://github.com/user-attachments/assets/acceacb2-e092-4268-9fd5-ba97c85c2ce7" />
-
-#### • A partir de la descripció de tail, busca el paràmetre per mostrar l'última fila d'un fitxer.
+cat scripts/sys_check.sh >> README.md
 
 ```
-sudo nano sys_check.sh
-
-    echo "$(date)"
-    sudo apt update
-    sudo apt upgrade
-```
-
-<img width="627" height="159" alt="Captura de pantalla 2025-10-31 141906" src="https://github.com/user-attachments/assets/fec6b947-1fcf-4a19-883c-ea054bf2ac07" />
-
+<img width="535" height="116" alt="image" src="https://github.com/user-attachments/assets/c01b8e43-c628-4707-8954-57fce82dc590" />
 
 #### • Afegeix un apartat explicant el per què hem utilitzat l'usuari normal en comptes de l'usuari root i per què és perillòs utilitzar sudo su.
-```
-bash sys_check.sh
-```
-<img width="897" height="273" alt="Captura de pantalla 2025-10-31 141846" src="https://github.com/user-attachments/assets/4fa6e8ab-27ff-49a2-bc54-39f445eb001f" />
+
+<img width="1711" height="125" alt="image" src="https://github.com/user-attachments/assets/a05a752d-24d2-4764-889b-7b3b69f70d8f" />
+

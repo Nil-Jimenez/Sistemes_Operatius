@@ -14,3 +14,19 @@ Comanda:
 ```
 lscpu
 ```
+<img width="1334" height="987" alt="image" src="https://github.com/user-attachments/assets/73550cfb-4c31-4a7d-ab05-e2d4db9da4fb" />
+
+## Sistemes Operatius
+
+#### 4. Per què creus que els sistemes operatius més utilitzats en dispositius incrustats estan basats en UNIX, així com en servidors i en consoles?
+
+#### 5. Busca a internet algun exemple del sistema operatiu que podem trobar en un cotxe, en un dispositiu Wi-Fi i en un servidor.
+
+## Llicències de programari
+
+#### 6. Busca el repositori oficial d’un programa de codi obert (exemple: Firefox o GIMP), i explica:
+  #### a. Quina llicència utilitza. Explica en què consisteix.
+  #### b. Podries modificar el seu codi font? Per què?
+  #### c. Explica quina diferència hi hauria si aquest programa fos propietari.
+
+#### 7. Quins punts engloba la filosofia del free software que hem vist a classe?

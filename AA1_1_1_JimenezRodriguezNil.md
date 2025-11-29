@@ -20,13 +20,20 @@ lscpu
 
 #### 4. Per què creus que els sistemes operatius més utilitzats en dispositius incrustats estan basats en UNIX, així com en servidors i en consoles?
 
+Els sistemes basats en UNIX van millor per que són mes estables, flexibles, portables, segurs, oberts i tenen un gran suport professional.
+
 #### 5. Busca a internet algun exemple del sistema operatiu que podem trobar en un cotxe, en un dispositiu Wi-Fi i en un servidor.
+
+Per els routers el mes famos es OpenWrt, esta basat en Linux, per un servidor el millor es Debian GNU/Linux, i per els coches QNX es un sistema operatiu RTOS.
 
 ## Llicències de programari
 
 #### 6. Busca el repositori oficial d’un programa de codi obert (exemple: Firefox o GIMP), i explica:
   #### a. Quina llicència utilitza. Explica en què consisteix.
+        Fa servir la llicència GNU General Public License v3 (GPL-3.0+), aquesta llicència et permet modificar, redistribuir, estudiar el programa pero sempre s'ha de poblicar amb la mateixa llicència, el que seria copyleft.
   #### b. Podries modificar el seu codi font? Per què?
+        Si que es pot modificar el seu codi ja que la llicència t'ho permet.
   #### c. Explica quina diferència hi hauria si aquest programa fos propietari.
-
+        No podries accedir ni modificar el codi, ni redistribuir-lo.
 #### 7. Quins punts engloba la filosofia del free software que hem vist a classe?
+        Els punts son les llibertats d’ús, d’estudi, de modificació i de distribució.

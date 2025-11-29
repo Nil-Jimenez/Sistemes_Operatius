@@ -24,7 +24,7 @@ Els sistemes basats en UNIX van millor per que són mes estables, flexibles, por
 
 #### 5. Busca a internet algun exemple del sistema operatiu que podem trobar en un cotxe, en un dispositiu Wi-Fi i en un servidor.
 
-Per els routers el mes famos es OpenWrt, esta basat en Linux, per un servidor el millor es Debian GNU/Linux, i per els coches QNX es un sistema operatiu RTOS.
+Per els routers el mes famos es OpenWrt, esta basat en Linux, per un servidor el millor es Debian GNU/Linux, i per els coches QNX es un sistema operatiu fet per BlackBerry.
 
 ## Llicències de programari
 
@@ -114,12 +114,21 @@ sleep 2
 
 ##### a. Posa exemples usant altres colors.
 
-Segons el que he trobat per canviar el color d'una comanda en concret, es pot fer fent servir la taula de colors ANSI, dependent del numero que posis sortira un color o un altre.
-Primer "-e" permet interpretar el: \033 que serveix per indicar a la terminal que després venen uns parametres especials, [ comença la sequencia, el 31 es el num que equival al color i final ment "m" indica el final de la sequecia.
+Segons el que he trobat per canviar el color d'una comanda en concret, es pot fer fent servir la taula de colors ANSI, dependent del número que posis sortirà un color o un altre.
+
+Primer "-e" permet interpretar el: \033 que serveix per indicar a la terminal que després venen uns paràmetres especials, [ comença la seqüència, el 31 és el numero que equival al color i finalment "m" indica el final de la seqüència.
 
 En aquets cas es vermell:
 ```
 echo -e "hola \033[31mhola\033[31m"
 ```
 <img width="724" height="282" alt="image" src="https://github.com/user-attachments/assets/8a8e188d-a945-4d58-862a-00d5e65c90e8" />
+
+## Bibliografía:
+
+#### Chronigan. (n.d.). Buscando un sistema operativo para un router : r/homelab. https://www.reddit.com/r/homelab/comments/1ih2uwd/looking_for_an_os_for_a_router/?tl=es-es
+
+#### (How to Change the Command Line Directory Text Color Permanently : R/Ubuntu, n.d.) https://www.reddit.com/r/Ubuntu/comments/ppvs4r/how_to_change_the_command_line_directory_text/ 
+
+#### Wikipedia contributors. (2025, November 19). QNX. Wikipedia. https://en.wikipedia.org/wiki/QNX
 

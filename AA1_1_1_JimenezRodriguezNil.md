@@ -1,3 +1,4 @@
+Enllaç del repositori de GitHub: https://github.com/Nil-Jimenez/Sistemes_Operatius/blob/main/AA1_1_1_JimenezRodriguezNil.md 
 ## Computadors
 
 #### 1. Quina és la diferència principal entre una GPU i una CPU?
